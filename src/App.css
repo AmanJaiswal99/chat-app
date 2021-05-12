@@ -1,0 +1,116 @@
+.App{
+  padding:40px ;
+  
+}
+
+body{
+  background-color: rgb(20, 20, 20);
+}
+.content{
+  display: flex;
+  align-items: center;
+  color:rgb(184, 178, 178);
+}
+
+.msg{
+  margin-bottom: 20px;
+}
+
+.contentItem{
+  margin-right: 10px;
+}
+
+.contentItem>p{
+  color: rgb(240, 95, 38);
+  font-weight: bold;
+  font-size: large;
+}
+
+.portrait{
+  border-radius: 50%;
+}
+
+.textmsg{
+
+  font-weight: 500;
+  color:rgb(211, 207, 207);
+}
+
+.btndiv{
+ 
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.btndiv>button{
+  background: none;
+  border:none;
+  outline: none;
+  color: white;
+  font-size: large;
+  font-weight: 500;
+}
+
+.nav{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: whitesmoke;
+  align-items: center;
+ position: absolute;
+ top: 30%;
+ padding: 40px;
+ padding-top: 0px;
+  width: max-content;
+  background-color: rgb(22, 22, 22);
+  box-shadow: 0 0 10px black;
+}
+.nav>button{
+  width: 200px;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: large;
+  outline: none;
+  border:none;
+  
+}
+
+
+
+.forminput{
+  position: fixed;
+  top: 100%;
+  left: 50%;
+  margin-top: -100px; 
+margin-left: -250px
+
+}
+
+.inputbox{
+  width: 500px;
+  height: 48px;
+  border-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-right-radius: 0px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.submitbtn{
+  height: 50px;
+  width: 80px;
+  color:black;
+  background-color: white;
+  border:none;
+  outline: none;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.card{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
